@@ -29,6 +29,10 @@ public class Product {
         this.id = id;
         this.name = name;
     }
+	public Product() {
+		this.id = -1;
+		this.name = "foo";
+	}
 
     @Override
     public String toString () {
